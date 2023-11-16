@@ -1,0 +1,103 @@
+/* CSS RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* MY STYLING */
+body {
+  font-family: 'Signika', 'Signika Negative', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-image: url("images/pic2.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 100px;
+}
+
+main h2 {
+  font-size: 25px;
+}
+
+i {
+  margin-top: 30px;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.custom-text {
+  font-family: 'Lobster', sans-serif;
+  margin-left: 20px;
+}
+
+i:active {
+  color: #a2a8d3;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
+
+footer a {
+  font-size: 13px;
+  color: white;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 530px) {
+  body {
+      margin: 0 40px;
+  }
+}

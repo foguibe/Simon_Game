@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+    <title>The Simon Game</title>
+</head>
+<body>
+    <p>Simon</p>
+    <main>
+        <div id="main-div">
+            <div id="box-div">
+                <div id="red" class="box">
+                    <audio id="myAudio" src="sounds/sound1.wav"></audio>
+                </div>
+                <div id="green" class="box">
+                    <audio id="myAudio" src="sounds/sound2.wav"></audio>
+                </div>
+                <div id="blue" class="box">
+                    <audio id="myAudio" src="sounds/sound3.wav"></audio>
+                </div>
+                <div id="yellow" class="box">
+                    <audio id="myAudio" src="sounds/sound4.wav"></audio>
+                </div>
+            </div>
+            <div id="qs">
+                <button id="quit">Quit</button>
+                <h2 id="score">score: <span></span></h2>
+            </div>
+        </div>
+    </main>
+    <script src="games.js"></script>
+</body>
+</html>

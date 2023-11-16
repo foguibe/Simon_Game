@@ -1,0 +1,83 @@
+### HTML (index.html and game.html)
+
+1. Document Structure:
+   - Proper use of HTML5 document structure (`<!DOCTYPE html>`).
+   - Implementation of essential HTML elements like `<html>`, `<head>`, `<body>`, `<main>`, `<footer>`, `<title>`, `<link>`, and `<script>`.
+
+2. Semantic HTML:
+   - Usage of semantic tags such as `<main>`, `<h1>`, `<h2>`, `<p>`, `<i>`, `<button>`, and others for better readability and accessibility.
+
+3. External Resources:
+   - Linking external stylesheets (`styles.css` and `game.css`) and JavaScript files (`script.js` and `games.js`).
+   - Utilizing external fonts from Google Fonts and external icon resources from Font Awesome.
+
+### CSS (styles.css and game.css)
+
+4. CSS Reset:
+   - Resetting default styles using a more-intuitive box-sizing model.
+   - Removing default margins, setting accessible line-height, and improving text rendering.
+
+5. Flexbox and Grid Layout:
+   - Implementation of Flexbox for centering content vertically and horizontally.
+   - Utilization of Grid Layout for arranging elements in a two-column grid (`#box-div`).
+
+6. Responsive Design:
+   - Implementation of media queries to adjust styles based on different screen sizes.
+   - Responsive adjustments for font sizes, element dimensions, and spacing.
+
+7. Background Styling:
+   - Application of background images (`url("images/pic2.jpg")`) for aesthetic appeal.
+
+8. Font Styling:
+   - Utilization of Google Fonts (`'Signika'`, `'Signika Negative'`, `'Lobster'`, and `'Kenia'`) for consistent and appealing typography.
+   - Integration of Font Awesome icons for the play button.
+
+### JavaScript (script.js and games.js)
+
+9. Event Handling:
+   - Usage of `document.addEventListener` for DOMContentLoaded event.
+   - Handling click events on elements like the play button and game boxes.
+
+10. udio Integration:
+    - Integration of audio elements using the `Audio` constructor to play sounds during the game.
+    - Playback of different sounds based on user actions and game progression.
+
+11. DOM Manipulation:
+    - Dynamically updating styles and attributes of HTML elements based on user interactions (`box.style.boxShadow`, `userClick.style.boxShadow`).
+
+12. Timeouts and Delays:
+    - Use of `setTimeout` to introduce delays in executing certain functions (e.g., transitioning to the game page after a delay).
+
+13. Conditional Statements:
+    - Implementation of conditional statements (`if` and `else`) to control the flow of the game based on user actions.
+
+14. Array Manipulation:
+    - Manipulation of arrays (`soundArray`) to store and sequence game patterns.
+
+15. Functions:
+    - Definition and usage of functions (`enableUserClick`, `disableUserClick`, `increaseScore`, `playNextColor`) to modularize and organize code.
+
+16. Page Navigation:
+    - Usage of `window.location.href` to navigate between the index page and the game page.
+
+### General Practices
+
+17. Version Control:
+    - Hosting the project on GitHub, indicating version control practices.
+
+18. Documentation:
+    - Inclusion of comments in JavaScript files for code explanation and readability.
+    - Detailed README.md outlining project features, structure, usage, technologies used, and more.
+
+19. Styling Practices:
+    - Consistent styling practices, including color schemes, box shadows, and font choices for a cohesive design.
+
+20. Responsive Design Best Practices:
+    - Adherence to responsive design principles, ensuring a seamless user experience across various devices.
+
+### Collaboration and Communication
+
+21. Linking to GitHub Profile:
+    - Inclusion of a link to the developer's GitHub profile in the footer (`<a href="https://github.com/foguibe">Fortune Oguibe.</a>`).
+
+In summary, this project showcases a comprehensive set of skills, including HTML structure, CSS styling for aesthetics and responsiveness, JavaScript for interactivity and game logic, version control practices, and documentation for clarity and collaboration.
